@@ -7,8 +7,8 @@ function calculateArea(length, height){
 }
 class Rectangle{
     constructor(length,height){
-        this.length= length;
-        this.height= height;
+        this.length = length;
+        this.height = height;
     }
     calculateArea(){
        return this.width * this.height; 
@@ -18,6 +18,7 @@ class Rectangle{
 //should encapsulate the variables and functions within a Rectangle
 //should pass the variables into the Rectangle as constructor arguments
 //should have a calculateArea method that takes no arguments
+
 
 
 
